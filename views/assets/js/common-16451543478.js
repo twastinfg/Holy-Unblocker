@@ -81,7 +81,7 @@ window.goProx = {
         goToUrl("https://c." + getDomain(), stealth);
     },
     rnav: function(stealth) {
-        goToUrl("https://client." + getDomain(), stealth);
+        goToUrl("https://redone-001.herokuapp.com/"(), stealth);
     },
     osu: function(stealth) {
         setAuthCookie("osauth=true", false);
